@@ -3,19 +3,28 @@
 <head>
 	<title>Wikipedia Viewer</title>
 	<link rel="stylesheet" href="styles/mystyles.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif|Source+Sans+Pro" rel="stylesheet">
 </head>
 <body>
-	<div id="content">
-		<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
-			<button id="random">Random Article</button>
-		</a>
+	<div id="header">
+		<h2>Wikipedia Viewer</h2>
+	</div>
 
+
+	<div id="content">
 	<div>
 		<form id="searchForm">
 		Search: <input type="text" id="search">
-				<input type="submit">
+				<input type="submit" class="btn">
 		</form>
 	</div>
+
+		<div id="rndButton">
+		<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+			<button id="random" class="btn">Random Article</button>
+		</a>
+		</div>
+
 
 		<div id="results">
 		
